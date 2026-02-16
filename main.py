@@ -6,7 +6,7 @@ if __name__== "__main__":
 
     PATIENT_VALUES = [70,72,75,71,69,120]
 
-    data = PatientData(values)
+    data = PatientData(PATIENT_VALUES)
     stats = StatisticsCalculator(data.values)
     detector = AnomalyDetector(data.values,stats)
 
