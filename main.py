@@ -4,7 +4,7 @@ from src.anomaly_detector import AnomalyDetector
 
 if __name__== "__main__":
 
-    values = [70,72,75,71,69,120]
+    PATIENT_VALUES = [70,72,75,71,69,120]
 
     data = PatientData(values)
     stats = StatisticsCalculator(data.values)
